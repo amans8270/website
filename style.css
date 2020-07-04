@@ -1,0 +1,190 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 240%;
+    color: whitesmoke;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.head
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* For button option*/
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: backgraound-color 0.2s,border 0.2s,color 0.2s;
+    
+
+}
+/*first button*/
+.btn1:link,
+.btn:visited
+{
+    background-color:#FFC312 ;
+    border: 1px solid #FFC312;
+    color: white;
+    margin-right: 20px;
+}
+/* second button*/
+.btn2:link,
+.btn2.visited
+{
+    border:1px solid #FFC312;
+    color:white ;
+
+}
+.btn1:hover,
+.btn:active
+{
+    background-color:rgb(255, 125, 18) ;
+}
+.btn2:hover,
+.btn2.btn:active
+{
+    border:1px solid rgb(255, 172, 18);
+    color:#FFC312;
+}
+.logo
+{
+    height: 100px;
+    width: auto;
+    float: left;
+    border-radius: 50%;
+}
+.nav
+{
+    float: right;
+    list-style: none;
+
+}
+.nav li
+{
+    display: inline;
+    margin: 20px;
+
+}
+.nav li a:link,
+.nav li a:visited
+{
+    color: white;
+    text-transform:uppercase ;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: transparent;
+    padding: 8px 0px;
+}
+.nav li a:hover,
+.nav li a:active
+{
+    color:white;
+    border-bottom: 2px solid orange;
+    border-radius: 200px;
+}
+/* For registration Page*/
+.aman
+{
+    width: 300px;
+    background: rgba(255, 255, 255, 0.377);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 20px;
+    margin: 8% auto 0;
+}
+.heading
+{
+    color: rgb(13, 59, 197);
+    margin-bottom: 30px;
+    text-shadow: whitesmoke;
+}
+.box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline:none;
+
+}
+.button
+{
+    color: blue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.logo2
+{
+    height: 50px;
+    width: auto;
+    float: left;
+    border-radius: 50%;
+}
+.log
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/114387.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*for blog post*/
+.bl
+{
+    color:whitesmoke;
+    font-size: 20;
+    font-style: italic;
+    padding: 10px;
+    word-spacing: 8px;
+    background-color:transparent;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.logo3
+{
+    height: 100px;
+    width: auto;
+    float: left;
+    border-radius: 50%;
+
+}
+.blog_img
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)),url(img/Calm-Full-HD-Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
